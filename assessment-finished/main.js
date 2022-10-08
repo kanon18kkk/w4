@@ -32,8 +32,8 @@ function result() {
   }
 
   if (document.getElementById("jp").checked) {
-    const weight = `$50kg`;
-    const temperature =  `$摂氏-1度`;
+    const weight = `50kg`;
+    const temperature =  `摂氏-1度`;
     newStory = newStory.replace('華氏40度', temperature);
     newStory = newStory.replace('110ポンド', weight);
   }
